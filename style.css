@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+header{
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  background-color: white;
+  justify-content: space-between;
+  padding: 30px;
+}
+a{
+font-size: 20px;
+text-decoration: none;
+}
+.container{
+  width: 100vw;
+  height: 80vh;
+  background-color: green;
+  background-size: cover;
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+  text-align: center;
+}
+.card1{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  margin: 30px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-top: 120px;
+  color: aliceblue;
+}
+header a{
+  margin-right: 20px;
+}
+.card1:hover{
+  background-color: aqua;
+}
